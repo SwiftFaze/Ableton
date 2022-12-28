@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b152a01-ecf0-4708-a5c9-ac6439777c9f" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ableton_stats.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/ableton_projects/project1.als" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Ableton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AbletonDefaultPresetRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AccidentalSpellingPreference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Active.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Amp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AmpFreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AmpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AnchorTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AreAdditionalAutomationLanesFolded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AreTakeLanesFolded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ArrangementOverdub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ArrangerAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ArrangerIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ArrangerMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ArrangerReturns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ArrangerShowOverView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ArrangerTrackDelay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AudioInputRouting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AudioOutputRouting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AudioSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AudioTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutoColorPickerForPlayerAndGroupTracks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutoColorPickerForReturnAndMasterTracks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutoQuantisation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Automation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutomationEnvelope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutomationEnvelopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutomationLane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutomationLanes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutomationMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutomationTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AutomationTransformViewState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AxisX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/AxisY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Bass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/BassMono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/BassMonoAudition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/BassMonoFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/BeatTimeHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Bleed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/BranchDeviceId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/BranchSourceContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/BrowserContentPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ByteOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ChannelMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ChooserBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ClientSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ClipEnvelopeChooserViewState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ClipSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ClipSlotList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ClipSlotsListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ClipTimeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ColorSequenceIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ContentLanes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ControllerTargets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Corpus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/CrossFade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/CrossFadeState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/CrossfadeCurve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/CuePointsListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/CurrentTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/CurrentZoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DcFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Decay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DecayOnNoteOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Detune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DeviceChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DeviceId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DeviceLomId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DeviceViewLomId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Devices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DevicesListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DrawMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Drive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DryWet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DualMono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/EffectiveName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/EnumEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/EnvelopeTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Envelopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Events.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ExcitationX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ExpressionLane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ExpressionLanes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FileRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FilterBandWidth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FilterMidFreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FilterOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FineTranspose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FirstNoteChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Fixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FixedDenominator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FixedNumerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Flags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FloatEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FluxModulationTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FollowAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FollowActionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FollowActionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FollowActionEnabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FollowChanceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FollowChanceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FollowTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Freeze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FreezeSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FreqDamping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Frequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Gain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/GlobalGrooveAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/GlobalQuantisation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/GrainSizeModulationTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/GridIntervalPixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/GroovePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/HasStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/HighlightedTrackIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/InKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Inharmonics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Inputs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsArmed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsContentSelectedInDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsContentSplitterOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsExpanded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsExpressionSplitterOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsFolded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsMinimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsOnLomId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsShellClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsTempoEnabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsTimeSignatureEnabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsTransformPending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/IsValueSampleBased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/JumpIndexA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/JumpIndexB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LaneHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Last.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LastInternalRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LastNoteChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LastPresetRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LastSelectedClipEnvelopeIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LastSelectedTimeableIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LastUserRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LatencyCompensation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LegacyGain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LegacyMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoOffset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoOnOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoPhase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoSpin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoStereoMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoSyncRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LfoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LinkedTrackGroupId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ListeningXL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ListeningXR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LivePackId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LivePackName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LiveSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LockEnvelope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LomId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LomIdView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LoopIsSongStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LoopIterations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LoopLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LoopOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LoopStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/LowerDisplayString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MainSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Manual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MasterTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MemorizedFirstClipName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MetronomeTickDuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidSideBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidSideBalanceOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Middle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiCCOnOffThresholds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiControllerRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiFoldIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiFoldMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiInputRouting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiOutputRouting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiPitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiPrelisten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MidiTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Mixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ModulationSourceCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ModulationTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MonitoringEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Mono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MpeEnabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MpeSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MultiClipFocusMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MultiClipLoopBarHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Mute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/NeedArrangerRefreeze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/NeedRefreeze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/NextColorIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/NextPointeeId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Ntoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/NumberOfParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/NumberOfPrograms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/On.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/OnOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/OriginalCrc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/OriginalFileRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/OriginalFileSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/OtherTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Outputs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/OverwriteProtectionNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Pan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PanMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParameterCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParameterId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParameterIdFlankBool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParameterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParameterName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParameterValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParametersListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ParametersListWrapperLomId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PhaseInvertL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PhaseInvertR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PhaseNudgeTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PitchViewScrollPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PitchbendRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PlugName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PluginDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PluginDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PluginFloatParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PluginVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Pointee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PointeeId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PostProcessFreezeClips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PowerMacroControlIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PowerMacroMappingRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PreHearTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PreferFlatRootNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PreferModulationVisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PreferredContentViewMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Presence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Preset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PresetRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ProgramCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ProgramNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PunchIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/PunchOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Radius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Ratio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ReWireSlaveMidiTargetId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Recorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RelativePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RelativePathType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ResetNonautomatedMidiControllersOnClipStarts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ResonanceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ResonatorQuality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ReturnTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ReturnTracksListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RootNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Routable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RoutedInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SampleOffsetModulationScrollPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SampleOffsetModulationTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SavedPlayingOffset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SavedPlayingSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ScaleInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Scenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ScenesListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ScrollerPos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SelectedDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SelectedEnvelope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SendPreBool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Sends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SendsListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SendsPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SequencerNavigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionCrossFade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionReturns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionScrollerPos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionSends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionShowOverView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SessionTrackDelay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ShouldShowPresetName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ShowVideoWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SideChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SmpteFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SnapAutomationToGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SnapToGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SoloInPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SoloOrPflSavedValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SoloSink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SongMasterValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SourceContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Speaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SplitStereoPanL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SplitStereoPanR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/StereoGain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/StereoWidth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/StoredAllParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TakeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TakeLanes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Tempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TempoAutomationViewBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TempoAutomationViewTop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TimeSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TimeSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TimeSignatureId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TrackDelay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TrackGroupId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TrackHeaderWidth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TrackSendHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TrackUnfolded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Tracks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TracksListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Transpose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TranspositionModulationTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Treble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TubeOpening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/UniqueId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/UpperDisplayString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/UseWarperLegacyHiQMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/UserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VelocityDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Version.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VideoWindowRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewStateArrangerHasDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewStateDetailIsSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewStateFxSlotCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewStateSessionHasDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewStateSessionMixerHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewStateSesstionTrackWidth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ViewStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VisibleTracksListWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VisualIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Volume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VolumeModulationTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VstPluginInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VstPreset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/VstVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/WinPosX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/WinPosY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/ZoneType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/Unzipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/UnzipperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJavaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JY5h2wuFVzH4RdQw41RD9jIe5V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "com.example.javaableton.XmlToJava",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_directory_selection": "C:/Users/Rob/IdeaProjects/Ableton_stats/src/test/src/com/example/javaableton",
+    "last_opened_file_path": "C:/Users/Rob/IdeaProjects/Ableton_stats/lib",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats\lib" />
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats" />
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats\resource\ableton projects" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="com.example.javaableton.XmlToJava" />
+      <recent name="com.example.javaableton.Unzipper" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats\src" />
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats\classes" />
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats\lib" />
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats" />
+      <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats\java" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.javaableton" />
+      <recent name="com.example.javaableton.com.example.javaableton" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javaableton" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.XmlToJavaTest.XmlToJava">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Ableton_stats" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnzipperTest.unzip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaableton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javaableton" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javaableton.UnzipperTest" />
+      <option name="METHOD_NAME" value="unzip" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlToJavaTest.XmlToJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaableton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javaableton" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javaableton.XmlToJavaTest" />
+      <option name="METHOD_NAME" value="XmlToJava" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.XmlToJavaTest.XmlToJava" />
+        <item itemvalue="JUnit.UnzipperTest.unzip" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b152a01-ecf0-4708-a5c9-ac6439777c9f" name="Changes" comment="" />
+      <created>1672242294824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672242294824</updated>
+      <workItem from="1672242296877" duration="6880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>

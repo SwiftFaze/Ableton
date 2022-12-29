@@ -1,7 +1,7 @@
 package classes;
 
 public class Ableton {
-//	public LiveSet LiveSet;
+	public LiveSet LiveSet;
 	public int MajorVersion;
 	public String MinorVersion;
 	public int SchemaChangeCount;

@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b152a01-ecf0-4708-a5c9-ac6439777c9f" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/resource/ableton_projects/MOOD3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/ableton_projects/laptop.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/ableton_projects/rawt1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/ableton_projects/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/json/project.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStats.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStats.java" afterDir="false" />
+    <list default="true" id="2b152a01-ecf0-4708-a5c9-ac6439777c9f" name="Changes" comment="Ajout GUI&#10;Ajout import des stats et lecture du fichier xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStatBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AudioClip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/Plugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Ableton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Ableton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/AudioTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/AudioTrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/DeviceChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/DeviceChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/LiveSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/LiveSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/LowerDisplayString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/LowerDisplayString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Tracks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Tracks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJavaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/ableton_projects/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/ableton_projects/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStats.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStats.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStatBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJavaTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -59,7 +54,7 @@
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "322",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "com.example.javaableton.XmlToJava",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "com.example.javaableton.AbletonStatBuilder",
     "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_directory_selection": "C:/Users/Rob/IdeaProjects/Ableton_stats/src/test/src/com/example/javaableton",
@@ -76,6 +71,7 @@
       <recent name="C:\Users\Rob\IdeaProjects\Ableton_stats\resource\ableton projects" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="com.example.javaableton.AbletonStatBuilder" />
       <recent name="com.example.javaableton.XmlToJava" />
       <recent name="com.example.javaableton.Unzipper" />
       <recent name="" />
@@ -110,9 +106,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Ableton_stats" />
+    <configuration name="AbletonStatBuilderTest.XmlToJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaableton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javaableton" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javaableton.AbletonStatBuilderTest" />
+      <option name="METHOD_NAME" value="XmlToJava" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbletonStatBuilderTest.getProjectStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaableton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javaableton" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javaableton.AbletonStatBuilderTest" />
+      <option name="METHOD_NAME" value="getProjectStats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbletonStatBuilderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaableton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javaableton" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javaableton.AbletonStatBuilderTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,45 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlToJavaTest.XmlToJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javaableton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.javaableton" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javaableton.XmlToJavaTest" />
-      <option name="METHOD_NAME" value="XmlToJava" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmlToJavaTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javaableton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.javaableton" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javaableton.XmlToJavaTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AbletonStats" />
-        <item itemvalue="JUnit.XmlToJavaTest.test" />
-        <item itemvalue="JUnit.XmlToJavaTest.XmlToJava" />
+        <item itemvalue="JUnit.AbletonStatBuilderTest.getProjectStats" />
+        <item itemvalue="JUnit.AbletonStatBuilderTest.test" />
+        <item itemvalue="JUnit.AbletonStatBuilderTest.XmlToJava" />
         <item itemvalue="JUnit.UnzipperTest.unzip" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +189,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672242294824</updated>
       <workItem from="1672242296877" duration="6975000" />
-      <workItem from="1672324952280" duration="15705000" />
+      <workItem from="1672324952280" duration="15786000" />
+      <workItem from="1672408849637" duration="13198000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1672249211270</created>
@@ -200,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672249253838</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout GUI&#10;Ajout import des stats et lecture du fichier xml">
+      <created>1672341336333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672341336333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,13 +232,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Ajout GUI&#10;Ajout import des stats et lecture du fichier xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout GUI&#10;Ajout import des stats et lecture du fichier xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/javaableton/XmlToJavaTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/javaableton/AbletonStatBuilderTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>

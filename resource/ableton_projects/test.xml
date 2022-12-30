@@ -37,7 +37,7 @@
 				<LinkedTrackGroupId Value="-1" />
 				<SavedPlayingSlot Value="-1" />
 				<SavedPlayingOffset Value="0" />
-				<Freeze Value="false" />
+				<Freeze Value="true" />
 				<VelocityDetail Value="0" />
 				<NeedArrangerRefreeze Value="true" />
 				<PostProcessFreezeClips Value="0" />
